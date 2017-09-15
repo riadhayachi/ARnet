@@ -23,6 +23,7 @@ For details about R-CNN please refer to the paper [Faster R-CNN: Towards Real-Ti
 
 2. Build the Cython modules
     ```Shell
+    export PATH=$PATH:/usr/local/cuda-8.0/bin
     cd $FRCN_ROOT/lib
     make
     ```
